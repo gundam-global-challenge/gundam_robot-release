@@ -1,0 +1,12 @@
+Source: ros-kinetic-gundam-robot
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <kei.okada@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/gundam_robot
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-gundam-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gundam-rx78-control, ros-kinetic-gundam-rx78-description, ros-kinetic-gundam-rx78-gazebo
+Description: gundam_robot is a meta package for GUNDAM RX-78 robot controller and simulator
