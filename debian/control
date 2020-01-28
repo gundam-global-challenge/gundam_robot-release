@@ -1,0 +1,12 @@
+Source: ros-kinetic-gundam-rx78-control
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <kei.okada@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-controller-interface, ros-kinetic-joint-trajectory-controller, ros-kinetic-pluginlib, ros-kinetic-roslaunch, ros-kinetic-roslint
+Homepage: http://wiki.ros.org/gundam_rx78_control
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-gundam-rx78-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-interface, ros-kinetic-controller-manager, ros-kinetic-joint-trajectory-controller, ros-kinetic-pluginlib, ros-kinetic-robot-state-publisher, ros-kinetic-ros-control, ros-kinetic-ros-controllers
+Description: gundam_rx78_control contains launch and configuration scripts for the ros controller of the GUNDAM RX-78 robot
