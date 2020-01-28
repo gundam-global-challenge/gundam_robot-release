@@ -1,0 +1,12 @@
+Source: ros-kinetic-gundam-rx78-description
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <kei.okada@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch, ros-kinetic-roslint
+Homepage: http://wiki.ros.org/gundam_rx78_description
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-gundam-rx78-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joint-state-publisher, ros-kinetic-robot-state-publisher, ros-kinetic-rviz
+Description: gundam_rx78_description contains the ROS URDF file of the GUNDAM RX-78 robot
