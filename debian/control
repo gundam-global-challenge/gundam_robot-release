@@ -1,0 +1,12 @@
+Source: ros-melodic-gundam-robot
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <kei.okada@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/gundam_robot
+Standards-Version: 3.9.2
+
+Package: ros-melodic-gundam-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-gundam-rx78-control, ros-melodic-gundam-rx78-description, ros-melodic-gundam-rx78-gazebo
+Description: gundam_robot is a meta package for GUNDAM RX-78 robot controller and simulator
